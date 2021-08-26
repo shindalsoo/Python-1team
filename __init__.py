@@ -30,7 +30,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 app = Flask(__name__)
 app.secret_key = "Secret Keyf"
 # 이곳에서 sqlite3 연결
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///ErpTax.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db이름.db'
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
 # orm db 선언문
@@ -162,7 +162,7 @@ class tblErpTaxBillTransitem(db.Model):
 
 # @app.route("/")
 # def index():
-#     all_data=tblErpTaxBillTrans.query.all()
+#     all_data=table이름.query.all()
 #     return render_template("list.html",all_data=all_data)
   
 # if __name__=="__main__":

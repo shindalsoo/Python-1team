@@ -18,8 +18,9 @@ pip install selenium
 ## sqlite3 table 생성
 
 ```sh
+# db 접속
 ./sqlite3 [DB이름].db
-
+# db 접속 후 create
 create table [table이름](
    TransSeq int primary key,
    FromSaupjaRegNo text,

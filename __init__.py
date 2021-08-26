@@ -35,36 +35,6 @@ app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
 # orm db 선언문
 db = SQLAlchemy(app)
-class tblErpDoc8(db.Model):
-    CorpCode=db.Column(db.String(6),primary_key = True)
-    DocSeq=db.Column(db.Integer,primary_key = True)
-    RegDate=db.Column(db.DateTime(timezone=True))
-    TIMESTAMP=db.Column(db.String(30))
-    def __init__(self,CorpCode,DocSeq,RegDate,TIMESTAMP):
-        self.CorpCode=CorpCode
-        self.DocSeq=DocSeq
-        self.RegDate=RegDate
-        self.TIMESTAMP=TIMESTAMP
-
-class tblErpDoc8Dtl(db.Model):
-    CorpCode=db.Column(db.String(6),primary_key = True)
-    DocSeq=db.Column(db.Integer,primary_key = True)
-    TransSeq=db.Column(db.Integer,primary_key = True)
-    PubCodeOrg=db.Column(db.Integer)
-    PubCodeKyungbi=db.Column(db.Integer)
-    PubCodeAccount=db.Column(db.Integer)
-    JukYo=db.Column(db.String(100))
-    BankSentYN=db.Column(db.String(1))
-    def __init__(self,CorpCode,DocSeq,TransSeq,PubCodeOrg,PubCodeKyungbi,PubCodeAccount,JukYo,BankSentYN):
-        self.CorpCode=CorpCode
-        self.DocSeq=DocSeq
-        self.TransSeq=TransSeq
-        self.PubCodeOrg=PubCodeOrg
-        self.PubCodeKyungbi=PubCodeKyungbi
-        self.PubCodeAccount=PubCodeAccount
-        self.JukYo=JukYo
-        self.BankSentYN=BankSentYN
-
 class tblErpTaxBillTrans(db.Model):
     __tablename__="tblErpTaxBillTrans"
     TransSeq=db.Column(db.String(11),primary_key = True)

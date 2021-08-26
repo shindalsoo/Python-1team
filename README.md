@@ -9,9 +9,12 @@ python selenium을 잘 다루도록 노력합니다
 ```sh
 pip install selenium
 ```
-## 사용 예제
+## sqlite3 db 생성
 
-스크린 샷과 코드 예제를 통해 사용 방법을 자세히 설명합니다.
+```sh
+./sqlite3 [DB이름]
+
+```
 
 ## 개발기간
 

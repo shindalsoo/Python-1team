@@ -67,8 +67,7 @@ create table tblErpTaxBillTransitem (
     Unc text,
     Amt text,
     Tax text,
-    Bogo text
-    );
+    Bogo text);
 ```
 
 ## 정보

@@ -13,7 +13,17 @@ pip install selenium
 
 ```sh
 ./sqlite3 [DB이름]
+```
 
+## sqlite3 table 생성
+
+```sh
+./sqlite3 [DB이름].db
+
+create table [table이름](
+   TransSeq int primary key,
+   FromSaupjaRegNo text,
+   FromSaupjangNo text);
 ```
 
 ## 개발기간

@@ -25,7 +25,8 @@ pip install selenium
 create table [table이름](
    TransSeq int primary key,
    FromSaupjaRegNo text,
-   FromSaupjangNo text);
+   FromSaupjangNo text
+);
 ```
 
 ## 개발기간

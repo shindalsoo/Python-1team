@@ -22,11 +22,53 @@ pip install selenium
 ./sqlite3 [DB이름].db
 
 # db 접속 후 create
-create table [table이름](
+create table tblErpTaxBillTrans (
    TransSeq int primary key,
    FromSaupjaRegNo text,
-   FromSaupjangNo text
-);
+   FromSaupjangNo text,
+   FromSaupjaname text,
+   FromDaepyoName text,
+   FromSaupjangAd text,
+   FromUptae text text,
+   FromJongmok text,
+   FromEmailAddr1 text,
+   ToSaupjaRegNo text,
+   ToSaupjangNo text,
+   ToSaupjaName text,
+   ToDaepyoName text,
+   ToSaupjangAddr text,
+   ToUptae text,
+   ToJongmok text,
+   ToEmailAddr1 text,
+   ToEmailAddr2 text,
+   HomeTaxApprNo text,
+   RegDate text,
+   AmtUnc text,
+   AmtTax text,
+   EditSayoo text,
+   AmtTot text,
+   AmtCash text,
+   AmtSupyo text,
+   AmtUEum text,
+   AmtMisu text,
+   GubunRequPay text,
+   FlowProcYN text,
+   SyncIndex text,
+   CorpCode text);
+   
+create table tblErpTaxBillTransitem (
+    TransSeq int primary key,
+    ItemNo int,
+    Mm text,
+    Dd text,
+    Pummok text,
+    Spec text,
+    Cnt text,
+    Unc text,
+    Amt text,
+    Tax text,
+    Bogo text
+    );
 ```
 
 ## 정보

@@ -37,7 +37,7 @@ app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 db = SQLAlchemy(app)
 class tblErpTaxBillTrans(db.Model):
     __tablename__="tblErpTaxBillTrans"
-    TransSeq=db.Column(db.String(11),primary_key = True)
+    TransSeq=db.Column(db.Integer,primary_key = True)
     FromSaupjaRegN=db.Column(db.String(20))
     FromSaupjangNo=db.Column(db.String(10))
     FromSaupjaName=db.Column(db.String(30))
@@ -105,7 +105,7 @@ class tblErpTaxBillTrans(db.Model):
 
 class tblErpTaxBillTransitem(db.Model):
     __tablename__="tblErpTaxBillTransitem"
-    TransSeq=db.Column(db.String(6),primary_key = True)
+    TransSeq=db.Column(db.Integer,primary_key = True)
     ItemNo=db.Column(db.Integer,primary_key = True)
     Mm=db.Column(db.String(2))
     Dd=db.Column(db.String(2))

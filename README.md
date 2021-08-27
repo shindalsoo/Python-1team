@@ -13,6 +13,8 @@ pip install selenium
 
 1. https://www.sqlite.org/download.html 접속
 2. Precompiled Binaries for Windows 의 3번째 항목 다운
+3. 압축 해제 후 sqlite3.exe 복사
+4. 복사한 프로그램을 자신이 사용할 폴더 안에 삽입
 
 
 ## sqlite3 db 생성 및 테이블 생성

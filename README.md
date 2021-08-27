@@ -15,19 +15,13 @@ pip install selenium
 2. Precompiled Binaries for Windows 의 3번째 항목 다운
 
 
-## sqlite3 db 생성
+## sqlite3 db 생성 및 테이블 생성
 
 ```sh
-./sqlite3 [DB이름]
-```
-
-## sqlite3 table 생성
-
-```sh
-# db 접속
+# db 생성
 ./sqlite3 [DB이름].db
 
-# db 접속 후 create
+# db 생성 후 create
 create table tblErpTaxBillTrans (
    TransSeq int primary key,
    FromSaupjaRegNo text,

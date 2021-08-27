@@ -9,9 +9,10 @@ python selenium을 잘 다루도록 노력합니다
 ```sh
 pip install selenium
 ```
-## sqlite3 설치 url
+## sqlite3 설치 방법
 
-https://www.sqlite.org/download.html
+1. https://www.sqlite.org/download.html 접속
+2. Precompiled Binaries for Windows 의 3번째 항목 다운
 
 
 ## sqlite3 db 생성

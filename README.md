@@ -9,6 +9,11 @@ python selenium을 잘 다루도록 노력합니다
 ```sh
 pip install selenium
 ```
+## sqlite3 설치 url
+
+https://www.sqlite.org/download.html
+
+
 ## sqlite3 db 생성
 
 ```sh

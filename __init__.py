@@ -33,7 +33,7 @@ app.secret_key = "Secret Keyf"
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db이름.db'
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
-# orm db 선언문
+# orm db 선언문1
 db = SQLAlchemy(app)
 class tblErpTaxBillTrans(db.Model):
     __tablename__="tblErpTaxBillTrans"

@@ -8,6 +8,10 @@ python selenium을 잘 다루도록 노력합니다
 
 ```sh
 pip install selenium
+pip install Flask
+pip install PyMySQL
+pip install SQLAlchemy
+pip install Flask-SQLAlchemy
 ```
 ## sqlite3 설치 방법
 

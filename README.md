@@ -30,7 +30,7 @@ pip install Flask-SQLAlchemy
 # db 생성 후 create
 create table tblErpTaxBillTrans (
    TransSeq int primary key,
-   FromSaupjaRegNo text,
+   FromSaupjaRegN text,
    FromSaupjangNo text,
    FromSaupjaname text,
    FromDaepyoName text,

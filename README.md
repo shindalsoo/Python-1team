@@ -20,6 +20,16 @@ pip install Flask-SQLAlchemy
 3. 압축 해제 후 sqlite3.exe 복사
 4. 복사한 프로그램을 자신이 사용할 폴더 안에 삽입
 
+## chrome driver 다운
+
+1. 크롬 오른쪽 세로 점점점 클릭
+2. 도움말 클릭
+3. chrome 정보 클릭
+4. 버전확인
+5. https://chromedriver.chromium.org/downloads 접속
+6. 버전에 맞는 드라이버 클릭
+7. window 32다운
+8. 압축 풀고 안에있는 응용프로그램 복사 후 자신이 쓰고있는 폴더에 붙여 넣기
 
 ## sqlite3 db 생성 및 테이블 생성
 

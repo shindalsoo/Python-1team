@@ -14,7 +14,7 @@ import pymysql
 import sqlalchemy 
 from itertools import groupby
 
-from openpyxl.worksheet.views import SheetView
+
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
@@ -22,7 +22,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 import time
 import os
 from urllib.request import urlretrieve
-from openpyxl import Workbook
+
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains

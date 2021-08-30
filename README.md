@@ -89,7 +89,7 @@ create table tblErpTaxBillTransitem (
 ## 정보
 init.py파일의 33번쨰 줄에 자신이 만든 db이름으로 변경
 
-init.py파일의 180번째 줄에 크롬 드라이버 위치 수정
+init.py파일의 150번째 줄에 크롬 드라이버 위치 수정
 
 만약 db에 데이터가 잘 들어갔는지 확인하고 싶을때 init.py 163번줄부터 169번줄 까지 주석풀고 165번쨰줄에 table이름 변경 
 

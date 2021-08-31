@@ -94,7 +94,7 @@ init.py파일의 150번째 줄에 크롬 드라이버 위치 수정
 만약 db에 데이터가 잘 들어갔는지 확인하고 싶을때 init.py 163번줄부터 169번줄 까지 주석풀고 165번쨰줄에 table이름 변경 
 
 ## 인증서 등록 방법
-![image](https://user-images.githubusercontent.com/51261484/131440899-8c882f2d-f831-4520-89b6-ae0e1353e382.png)
+![image](https://user-images.githubusercontent.com/51261484/131441018-0e30ed41-3044-4df2-9adf-6d46b2d7b6b3.png)
 
 ![image](https://user-images.githubusercontent.com/51261484/131440710-8321f868-ff2a-4638-a829-09524bf6dcb5.png)
 

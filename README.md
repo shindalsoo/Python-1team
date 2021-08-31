@@ -96,6 +96,8 @@ init.py파일의 150번째 줄에 크롬 드라이버 위치 수정
 ## 인증서
 ![image](https://user-images.githubusercontent.com/51261484/131440497-fb0bbf63-5a0e-4527-bddd-5a62197326b6.png)
 
+![image](https://user-images.githubusercontent.com/51261484/131440710-8321f868-ff2a-4638-a829-09524bf6dcb5.png)
+
 ## 개발기간
 
 * 2021/07/27

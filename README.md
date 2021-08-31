@@ -100,7 +100,7 @@ init.py파일의 150번째 줄에 크롬 드라이버 위치 수정
 1. 브라우저 클릭
 2. 브라우저로 공동인증서 가져오기 클릭
 
-![image](https://user-images.githubusercontent.com/51261484/131441583-d17e440c-1874-4402-9cc2-b9baf5c70c2e.png)
+![image](https://user-images.githubusercontent.com/51261484/131442306-38669fc9-2e65-42ca-ac41-12b7a139a2d4.png)
 
 3. 인증서파일 경로 오른쪽 끝에있는 파일모양 클릭 
 

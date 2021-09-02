@@ -199,13 +199,16 @@ selecte_box=driver.find_element_by_xpath('//*[@id="btn_confirm_iframe"]')
 selecte_box.click()
 driver.switch_to.default_content()
 
+try:
 # 로그인 했을때 팝업 iframe 접속
-element = WebDriverWait(driver, 10).until(
-EC.visibility_of_element_located((By.ID, "UTXPPABB29_iframe")))
-driver.switch_to.frame(element)
-# 닫기 버튼 클릭
-driver.find_element_by_xpath('//*[@id="btnCloseInvtSpec"]').click()
-driver.switch_to.default_content()
+    element = WebDriverWait(driver, 10).until(
+    EC.visibility_of_element_located((By.ID, "UTXPPABB29_iframe")))
+    driver.switch_to.frame(element)
+    # 닫기 버튼 클릭
+    driver.find_element_by_xpath('//*[@id="btnCloseInvtSpec"]').click()
+    driver.switch_to.default_content()
+except:
+    pass
 time.sleep(1)
 # 조회/발급 버튼이 생길때 까지 대기하다가 클릭
 selecte_box = WebDriverWait(driver, 10).until(

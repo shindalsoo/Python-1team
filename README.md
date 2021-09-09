@@ -120,12 +120,6 @@ init.py파일의 150번째 줄에 크롬 드라이버 위치 수정
 
 https://novice-engineers.tistory.com/9?category=908185
 
-## 2021/09/08 테이블 만들기
-.\sqlite3 craw.db
-
-create table webtoon(
-   id integer primary key, 
-   title text);
 
 ## 개발기간
 
